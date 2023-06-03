@@ -1,5 +1,5 @@
 
-class MyEnumberable
+class MyEnumerable
 
   def all?
     each { |element| return false unless yield(element) }
